@@ -1,17 +1,17 @@
-# Sistema Predictivo de Incendios - Lima Metropolitana 🔥
+# Sistema Predictivo de Incendios - Lima Metropolitana 
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Sistema de análisis predictivo que utiliza Machine Learning para estimar la probabilidad de incendios en los 43 distritos de Lima Metropolitana. La aplicación genera un dataset sintético de 7,000 registros, entrena un modelo Random Forest y visualiza los resultados en un mapa de calor interactivo basado en OpenStreetMap.
 
-## 🎯 Objetivos Principales
+##  Objetivos Principales
 
 - Generar un dataset sintético coherente con la geografía y densidad poblacional de Lima
 - Entrenar un modelo predictivo transparente y eficiente
 - Visualizar las zonas de riesgo en un mapa de calor interactivo
 - Proporcionar análisis estadísticos y temporales de los patrones de incendio
 
-## ✨ Características Implementadas
+## Características Implementadas
 
 ### 1. **Generación de Dataset Sintético**
 - ✅ 7,000 registros de incendios distribuidos en 43 distritos
@@ -43,7 +43,7 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 - ✅ Consola de salida para monitoreo del sistema
 - ✅ Controles intuitivos para generar datos y entrenar modelo
 
-## 🚀 URIs Funcionales
+##  URIs Funcionales
 
 ### Aplicación Web Principal
 - **`index.html`** - Dashboard principal con mapa interactivo y controles
@@ -56,7 +56,7 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 - **`python/train_model.py`** - Entrenamiento del modelo con scikit-learn
 - **`python/create_heatmap.py`** - Generación de mapas con Folium
 
-## 📊 Modelos de Datos
+##  Modelos de Datos
 
 ### Estructura del Dataset de Incendios
 ```javascript
