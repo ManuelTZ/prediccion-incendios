@@ -81,7 +81,7 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 - Cada distrito tiene coordenadas centrales, población, densidad y factor de riesgo base
 - Los factores de riesgo varían de 0.2 (muy bajo) a 0.75 (muy alto)
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 - **HTML5/CSS3** - Estructura y estilos
@@ -97,34 +97,8 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 - **Distribución probabilística** - Para generación de datos sintéticos
 - **Análisis geoespacial** - Cálculo de distancias y clustering
 
-## 🔮 Características No Implementadas
 
-1. **Conexión con datos reales** - El sistema usa solo datos sintéticos
-2. **API de servicios de emergencia** - No hay integración con sistemas reales
-3. **Predicción en tiempo real** - El modelo no se actualiza automáticamente
-4. **Histórico de incendios reales** - No hay acceso a bases de datos oficiales
-
-## 📈 Próximos Pasos Recomendados
-
-### Mejoras Inmediatas
-1. **Validación con datos reales** - Integrar estadísticas oficiales del CGBVP
-2. **Modelo más sofisticado** - Implementar redes neuronales o XGBoost
-3. **Variables adicionales** - Incluir clima, época del año, eventos especiales
-4. **Alertas automáticas** - Sistema de notificaciones por zona de riesgo
-
-### Funcionalidades Avanzadas
-1. **API REST** - Exponer predicciones como servicio web
-2. **Actualización en tiempo real** - WebSockets para datos en vivo
-3. **Análisis de tendencias** - Predicciones a largo plazo
-4. **Integración IoT** - Sensores de humo y temperatura
-
-## 🌐 URLs de Producción
-
-- **Aplicación Web**: Por publicar en el tab de Publish
-- **Repositorio**: Proyecto local (no desplegado aún)
-- **API Endpoints**: No disponibles (frontend only)
-
-## 📝 Notas Técnicas
+##  Notas Técnicas
 
 ### Interpretación del Mapa de Calor
 - **Zonas Rojas**: Probabilidad de incendio >70%
@@ -132,13 +106,8 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 - **Zonas Verdes**: Probabilidad <40%
 - Los clusters indican mayor concentración histórica de eventos
 
-### Limitaciones del Modelo
-- Datos 100% sintéticos, no reflejan estadísticas reales
-- El modelo es determinístico con variación aleatoria controlada
-- No considera factores externos como clima o eventos especiales
-- Precisión reportada es simulada, no validada con datos reales
 
-## 🚦 Cómo Usar el Sistema
+##  Cómo Usar el Sistema
 
 1. **Abrir `index.html`** en un navegador web moderno
 2. **Hacer clic en "Generar Dataset"** para crear los 7,000 registros
@@ -147,12 +116,3 @@ Sistema de análisis predictivo que utiliza Machine Learning para estimar la pro
 5. **Alternar visualizaciones** con los botones de Calor/Puntos
 6. **Revisar estadísticas** en los paneles laterales
 
-## 👥 Equipo y Contacto
-
-Sistema desarrollado con fines educativos y demostrativos para análisis urbano predictivo.
-
----
-
-**Última actualización**: Diciembre 2024
-**Versión**: 1.0.0
-**Estado**: ✅ Funcional - Listo para demostración
